@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+
+        <script type="text/javascript" th:src="@{/jquery.min.js}"></script>
+        <script type="text/javascript" th:src="@{/app.js}"></script>
+    </head>
+
+    <body>
+        <h1>Hi Isurus!</h1>
+
+        <form id="employeeForm">
+            <input type="text" id="firstName" placeholder="Enter Employee First Name" />
+            <input type="text" id="lastName" placeholder="Enter Employee Last Name" />
+            <input type="text" id="id" placeholder="Enter Employee ID" />
+            <input type="text" id="position" placeholder="Enter Employee Position" />
+            <input type="text" id="salary" placeholder="Enter Employee Salary" />
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
